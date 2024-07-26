@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Topo da pagina*/
+.topo{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: #73473D;
+}
+.topo img{
+    width: 100px;
+    position: relative;
+    left: 10%;
+}
+.topo div{
+    position: absolute;
+    right: 10%;
+    top: 35%;
+}
+
+.topo div a{
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 3px 1px #091026;
+
+
+}
+
+/* Efeito parallax para as cinco imagens*/
+.parallax1, .paralax2, .paralax3, .paralax4, .paralax5{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.parallax1{
+    height: 100vh;
+    background-image: url(img/paralax01.jpg);
+  
+}
+.parallax1 h1{
+    position: absolute;
+    text-align: center;
+    top: 38%;
+    right: 0;
+    left: 0;
+    color:#ffff ;
+    font-weight: 600;
+ font-family:  Tahoma, sans-serif;
+    font-size: 100px;
+    text-shadow: 2px 3px 1px #091026;
+}
+
+.texto-info{
+    padding: 50px;
+    text-align: center;
+}
+.texto-info h2{
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-weight: 800;
+    color: #8C6F56;
+}
+.texto-info p{
+    max-width: 1020px;
+    padding: 0 20px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height:22px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.paralax2{
+    background-image: url(img/paralax02.jpg);
+    height: 50vh;
+}
+.paralax2 h3, .paralax3 h3{
+    width: 300px;
+    padding: 10px;
+    position: relative;
+    top: 45%;
+    right: 0;
+    left: 0;
+    margin: auto;
+ text-align: center;
+  background-color: #73473D;
+  color: #fff;
+  text-shadow: 2px 3px 1px #091026;
+  
+ 
+}
+.paralax3{
+    background-image: url(img/paralax03.jpg);
+    height: 50vh;
+}
+
+.paralax4{
+    background-image: url(img/paralax4.jpg);
+    height: 100vh;
+}
+.paralax4 h2{
+    width: 300px;
+    padding: 10px;
+    position: relative;
+    top: 15%;
+    right: 0;
+    left: 0;
+    margin: auto;
+ text-align: center;
+  background-color: #73473D;
+  color: #fff;
+  text-shadow: 2px 3px 1px #091026;
+}
+.paralax4 iframe{
+    position: absolute;
+    top: 25%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    height: 300px;
+}
+.paralax4 div{
+    width: 300px;
+    padding: 10px;
+    position:relative;
+    top: 75%;
+    right: 0;
+    left: 0;
+    margin: auto;
+ text-align: center;
+  background-color: #73473D;
+  color: #fff;
+
+}
+.paralax5{
+    background-image: url(img/paralax5.jpg);
+    height: 80vh;
+}
+.paralax5 h2{
+ text-align: center;
+ top: 15%;
+ position: relative;
+ font-size: 25px;
+ color: #fff;
+ text-shadow: 2px 3px 1px #091026;
+
+}
+/*SEÇÃO HORÁRIOS*/
+.horarios{
+    max-width: 768px;
+    position: absolute;
+    margin: 0 auto;
+    top: 30%;
+    right: 0;
+    left: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;
+}
+
+.horarios li{
+    position: relative;
+}
+
+.horarios li h3{
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 2px 3px 1px #091026;
+}
+.horarios li div{
+    width: 70%;
+    height: 1px;
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    right: 0;
+    left: 0;
+    background-color: #ACACAC
+}
+.horarios li p{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+    color:#fff;
+    text-shadow: 2px 3px 1px #091026;
+}
+/* RODAPE*/
+footer{
+    padding: 40px;
+    background-color: #091026;
+}
+
+footer p{
+    text-align: center;
+    color: #fff;
+}
+footer span{
+    color: #8C6F56;
+}
+
+    
+   
+   
+
